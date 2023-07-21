@@ -1,0 +1,243 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    border: border-box;
+}
+
+.navbar {
+    display: flex;
+    width: 100%;
+    height: 11vh;
+    background: #0f1111;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/*box1*/
+.nav-logo {
+    height: 50px;
+    width: 100px;
+}
+
+.logo {
+    background-image: url("amazon_logo.png");
+    height: 100%;
+    width:100%;
+    background-size: cover;
+    padding: 12px, 2px;
+}
+
+.border {
+    border: 1.5px solid transparent;
+    padding: .6%;
+}
+
+.border:hover {
+    border: 1.5px solid white;
+}
+
+/*box-2*/
+.nav-address {
+    
+}
+
+.nav-address p {
+    padding-top: 8px;
+    font-size: 12px;
+    margin-left: 15px;
+    color: #cccccc;
+}
+
+.add-icon {
+    font-size: 14px;
+}
+
+/*box-3*/
+.nav-search {
+    display: flex;
+    height: 70%;
+    width: 60%;
+    font: 14px;
+    background-color: #ffffff;
+    /* margin-left: 7px; */
+    color: #0f1111;
+    border-radius: 5px 5px 5px 5px;
+    align-items: center;
+    
+}
+.nav-search select{
+    border: none;
+    
+}
+
+#nav-dropdown {
+    background-color: #f3f3f3;
+    padding-left: 5px;
+    height: 100%;
+    width: 45px;
+    font-size: .71rem;
+    border-radius: 5px 0 0 5px;
+    border: none;
+}
+.nav-search input{
+    flex-grow:1;
+    border: none;
+    outline: none;
+    padding-left: 5px;
+    font-size: 90%;
+}
+.search-icon{
+    display: flex;
+    background-color: #ebd559;
+    height: 100%;
+    width: 45px;
+    border-radius: 0 5px 5px 0;
+    align-items: center;
+    justify-content: center;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.nav-sign p{
+    font-size: .75rem;
+    margin-left:.4rem ;
+}
+#sign-in{
+    background-color: #0f1111;
+    color: white;
+    font-size: .8rem;
+    font-weight: 800;
+    border: #0f1111;
+}
+#sign-in1{
+    font-weight: 1000;
+}
+
+/**Template**/
+.template{
+    display: flex;
+    background-color: #232f3e;
+    width: 100%;
+    height: 6vh;
+}
+.temp-container{
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: .8rem;
+}
+/*hero section*/
+.hero-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.hero-section img{
+    width: 100%;
+    height: 40vw;
+    z-index: -1;
+}
+.fade-overlay {
+    z-index: -1;
+    position: absolute;
+    top: 41%;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 200vh; /* Adjust the height of the fading effect */
+    background: linear-gradient(to bottom, rgba(11, 229, 236, 0),rgba(8, 196, 243, 0.836),rgba(10, 226, 233, 0.849),rgba(10, 226, 233, 0.815), rgba(10, 226, 233, 0.966),rgba(10, 226, 233, 0.966),rgba(10, 226, 233, 0.966),rgba(10, 226, 233, 0.966));
+  }
+.hero-container{
+    display: flex;
+    flex-direction: column;
+    width: 93.5%;
+    align-items: center;
+    margin-top: -11vw;
+}  
+.small-banner{
+    text-align: center;
+    width: 100%;
+    background-color: #f5f6f6;
+    padding: 1%;
+}
+.hero-anchor{
+    color: blueviolet;
+}
+.selling-items{
+    display: flex;
+    flex-wrap: wrap;
+    width: 102%;
+    justify-content: space-between;
+}
+.selling-items div{
+    display: flex;
+    height: 441px;
+    width: 301px;
+    margin-top: 2%;
+    flex-direction: column;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+}
+.selling-items div h2{
+    align-self: start;
+    margin-left: 7%;
+    margin-bottom: 2%;
+}
+.selling-items div img{
+    height: 80%;
+    width: 85%;
+    z-index: 1;
+}
+.selling-items div a{
+    color: aqua;
+    font-size: .9rem;
+    align-self: start;
+    margin-left: 7%;
+    margin-top: 2.9%;
+}
+.back-to-top{
+    background-color: #3b4e64;
+    width: 100%;
+    height: 7vh;
+    margin-top:2%;
+    align-items: center;
+    justify-content: center;
+    font-size: .9rem;
+}
+.back-to-top a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+.contact-support{
+    display: flex;
+    width: 100%;
+    height: 57vh;
+    background: #232f3e;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    font-size: .8rem;
+}
+.support-anchors{
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    line-height: 200%;
+    font-size: .95rem;
+}
+.support-anchors a:hover{
+    text-decoration: underline;
+}
